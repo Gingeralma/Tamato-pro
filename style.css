@@ -1,0 +1,56 @@
+/*element selector*/
+h1 {
+	color: blue;
+	font-size: 100px;
+}
+
+/*id selector*/
+#background {
+	width: 100%;
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/*class selector*/
+.picture {
+	width: 440px;
+	height: 440px;
+	object-fit: scale-down;
+	border-radius: 10px;
+}
+
+.buttons { 
+	height: 20px; 
+	width: 44px; 
+	object-fit: scale-down;
+	border-radius: 10px;
+}
+
+#per-info {
+		width: 100px;
+		height: 120px;
+	}
+
+#threelines {
+		width: 100px;
+		height: 120px;
+	}
+
+#logo {
+		width: 100px;
+		height: 120px;
+	}
+
+.t {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#icon {
+	transform: translateY(-29%);
+}
